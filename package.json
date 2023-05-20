@@ -1,7 +1,7 @@
 {
 	"name": "mount-css",
 	"description": "A simple function for mounting css",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0",
 	"packageManager": "pnpm@8.5.1",
 	"main": "dist/mount-css.cjs.js",
 	"module": "dist/mount-css.esm-bundler.js",
