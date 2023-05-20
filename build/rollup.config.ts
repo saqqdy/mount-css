@@ -6,8 +6,6 @@ import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import filesize from 'rollup-plugin-filesize'
 import { visualizer } from 'rollup-plugin-visualizer'
-import replace from '@rollup/plugin-replace'
-import pkg from '../package.json' assert { type: 'json' }
 import { banner, extensions, reporter } from './config'
 
 export interface Config {
@@ -53,20 +51,26 @@ const configs: Config[] = [
 		env: 'development'
 	},
 	{
-		input: 'src/index.default.ts',
+		input: 'src/index.ts',
+		file: 'dist/mount-css.mjs',
+		format: 'es',
+		env: 'development'
+	},
+	{
+		input: 'src/index.ts',
 		file: 'dist/mount-css.global.js',
 		format: 'iife',
 		env: 'development'
 	},
 	{
-		input: 'src/index.default.ts',
+		input: 'src/index.ts',
 		file: 'dist/mount-css.global.prod.js',
 		format: 'iife',
 		minify: true,
 		env: 'production'
 	},
 	{
-		input: 'src/index.default.ts',
+		input: 'src/index.ts',
 		file: 'dist/mount-css.cjs.js',
 		format: 'cjs',
 		env: 'development'
@@ -114,14 +118,7 @@ function createEntry(config: Config) {
 		_config.external.push('core-js')
 	}
 
-	_config.plugins.push(
-		replace({
-			preventAssignment: true,
-			__VERSION__: pkg.version
-		}),
-		nodeResolve(),
-		commonjs()
-	)
+	_config.plugins.push(nodeResolve(), commonjs())
 
 	if (config.transpile !== false) {
 		!isTranspiled &&

@@ -6,6 +6,7 @@
 		"filesize",
 		"iife",
 		"mountcss",
+		"onwarn",
 		"samesite",
 		"saqqdy",
 		"tscjs",
