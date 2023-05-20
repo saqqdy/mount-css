@@ -1,6 +1,6 @@
-
-import mountCss from './mountCss' 
+import mountCss from './mountCss'
 
 export default {
-	version: '__VERSION__',mountCss
+	version: '__VERSION__',
+	mountCss
 }
