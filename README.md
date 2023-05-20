@@ -17,8 +17,6 @@ A simple function for mounting css
 
 <div style="text-align: center; margin-bottom: 20px;" align="center">
 
-### **[Documentation](https://www.saqqdy.com/mount-css)** • **[Change Log](./CHANGELOG.md)**
-
 </div>
 
 ## Installing
