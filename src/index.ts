@@ -36,7 +36,7 @@ export interface CssOptions {
  * @returns - result
  */
 function mountCss(src: string, option: CssOptions): Promise<boolean> {
-	if (!src) throw new Error('[mountCss]:url不能为空')
+	if (!src) throw new Error('[mountCss]: url is required')
 	const { attrs, props, force = false } = option
 	return new Promise((resolve, reject) => {
 		if (!force && document.querySelector(`link[href="${src}"]`)) {
