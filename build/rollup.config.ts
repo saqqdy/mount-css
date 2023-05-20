@@ -42,6 +42,7 @@ const configs: Config[] = [
 		file: 'dist/mount-css.esm-browser.prod.js',
 		format: 'es',
 		browser: true,
+		minify: true,
 		env: 'production'
 	},
 	{
