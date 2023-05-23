@@ -1,20 +1,20 @@
 {
 	"name": "mount-css",
 	"description": "A simple function for mounting css",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"packageManager": "pnpm@8.5.1",
-	"main": "dist/mount-css.cjs.js",
-	"module": "dist/mount-css.esm-bundler.js",
-	"browser": "dist/mount-css.esm-browser.js",
-	"unpkg": "dist/mount-css.global.js",
-	"jsdelivr": "dist/mount-css.global.js",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.esm-bundler.js",
+	"browser": "dist/index.esm-browser.js",
+	"unpkg": "dist/index.global.js",
+	"jsdelivr": "dist/index.global.js",
 	"types": "dist/index.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"module": "./dist/mount-css.esm-bundler.js",
-			"require": "./dist/mount-css.cjs.js",
-			"import": "./dist/mount-css.mjs"
+			"module": "./dist/index.esm-bundler.js",
+			"require": "./dist/index.cjs.js",
+			"import": "./dist/index.mjs"
 		},
 		"./*": "./*"
 	},
@@ -98,11 +98,8 @@
 	},
 	"keywords": [
 		"mount-css",
-		"es6",
-		"javascript",
-		"js library",
-		"js lib",
-		"js tools",
+		"load-css",
+		"load-style",
 		"saqqdy"
 	],
 	"license": "MIT",

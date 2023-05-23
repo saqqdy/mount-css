@@ -35,7 +35,7 @@ export interface CssOptions {
  * @param option - parameters: attrs, props, force
  * @returns - result
  */
-function mountCss(src: string, option: CssOptions): Promise<boolean> {
+function mountCss(src: string, option: CssOptions = {}): Promise<boolean> {
 	if (!src) throw new Error('[mountCss]: url is required')
 	const { attrs, props, force = false } = option
 	return new Promise((resolve, reject) => {
