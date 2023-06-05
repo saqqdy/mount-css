@@ -2,6 +2,8 @@
 
 # mount-css
 
+> **This project was moved to [mount-css](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
+
 A simple function for mounting css
 
 [![NPM version][npm-image]][npm-url]
