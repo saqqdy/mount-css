@@ -2,12 +2,6 @@
 
 # mount-css
 
-<div style="color: red;">
-
-### This project has been moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)
-
-</div>
-
 A simple function for mounting css
 
 [![NPM version][npm-image]][npm-url]
@@ -21,7 +15,9 @@ A simple function for mounting css
 
 </div>
 
-<div style="text-align: center; margin-bottom: 20px;" align="center">
+<div style="text-align: center; margin-bottom: 20px; color: #ff0000;" align="center">
+
+## This project has been moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)
 
 </div>
 
