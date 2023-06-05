@@ -2,7 +2,11 @@
 
 # mount-css
 
-> **This project was moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
+<div style="color: red;">
+
+> **This project has been moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
+
+</div>
 
 A simple function for mounting css
 
