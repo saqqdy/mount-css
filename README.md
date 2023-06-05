@@ -2,7 +2,7 @@
 
 # mount-css
 
-> **This project was moved to [mount-css](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
+> **This project was moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
 
 A simple function for mounting css
 
