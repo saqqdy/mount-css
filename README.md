@@ -4,7 +4,7 @@
 
 <div style="color: red;">
 
-> **This project has been moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)**
+### This project has been moved to [https://github.com/saqqdy/browsers](https://github.com/saqqdy/browsers/tree/master/packages/mount-css#readme)
 
 </div>
 
